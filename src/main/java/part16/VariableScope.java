@@ -17,5 +17,8 @@ package part16;
 //    in THIS file AND in DiceRoller.java, saying in YOUR OWN WORDS what that line does.
 
 public class VariableScope {
-
+    public static void main(String[] args) {
+        // This creates my dice roller
+        DiceRoller diceRoller = new DiceRoller();
+    }
 }

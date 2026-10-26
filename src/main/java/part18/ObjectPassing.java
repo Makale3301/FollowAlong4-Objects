@@ -15,5 +15,21 @@ package part18;
 //    saying in YOUR OWN WORDS what that line does. Do this in Garage.java and Car.java too.
 
 public class ObjectPassing {
+    public static void main(String[] args) {
+        // This creates my garage
+        Garage garage = new Garage();
 
+        // This creates my BMW
+        Car car1 = new Car("BMW");
+
+        // This parks my BMW
+        garage.park(car1);
+
+        // This creates my Tesla
+        Car car2 = new Car("Tesla");
+
+        // This parks my Tesla
+        garage.park(car2);
+
+    }
 }

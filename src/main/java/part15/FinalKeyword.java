@@ -16,5 +16,11 @@ package part15;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class FinalKeyword {
+    public static void main(String[] args) {
+        // This stores the value of pi
+        final double PI = 3.14159;
+        // This prints pi
+        System.out.println(PI);
 
+    }
 }

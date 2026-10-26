@@ -15,5 +15,20 @@ package part18;
 //    saying in YOUR OWN WORDS what that line does. Do this in Food.java too.
 
 public class ArrayOfObjects {
+    public static void main(String[] args) {
+        // This creates three food objects
+        Food food1 = new Food("pizza");
+        Food food2 = new Food("hamburger");
+        Food food3 = new Food("hot dog");
+
+        // This puts my food objects into an array
+        Food[] refrigerator = {food1, food2, food3};
+
+        // This prints each food name
+        System.out.println(refrigerator[0].name);
+        System.out.println(refrigerator[1].name);
+        System.out.println(refrigerator[2].name);
+    }
 
 }
+

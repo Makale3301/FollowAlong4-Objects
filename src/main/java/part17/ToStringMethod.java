@@ -15,5 +15,13 @@ package part17;
 //    saying in YOUR OWN WORDS what that line does. Do this in Car.java too.
 
 public class ToStringMethod {
+    public static void main(String[] args) {
+        // This creates my car
+        Car car = new Car();
+
+        // This prints my car's information
+        System.out.println(car);
+    }
 
 }
+
